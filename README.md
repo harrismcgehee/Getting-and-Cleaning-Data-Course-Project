@@ -117,4 +117,4 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals
 
 value:
   The mean of the measurement described in the measurement column for each subject and activity.
-  (0,1)
+  (0,1) 
