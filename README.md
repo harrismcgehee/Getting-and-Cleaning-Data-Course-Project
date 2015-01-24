@@ -31,11 +31,11 @@ activity:
       (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 
 measurement:
-    The signals from the accelerometer or gyroscope of the phone on the subject's waist. 
-    All measurements are either a mean or standard deviation of signals collected and calculated as described below. The means have Mean in the column name and standard deviations have Std in the column name.
-    Then, the measurements were normalized and bounded within [-1,1], and therefore represent unit-less values. 
+The signals from the accelerometer or gyroscope of the phone on the subject's waist. 
+All measurements are either a mean or standard deviation of signals collected and calculated as described below. The means have Mean in the column name and standard deviations have Std in the column name.
+Then, the measurements were normalized and bounded within [-1,1], and therefore represent unit-less values. 
 
-    These time domain signals were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+These time domain signals were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 'timeDomainBodyAccelerometerMeanXAxis'
 'timeDomainBodyAccelerometerMeanYAxis'
 'timeDomainBodyAccelerometerMeanZAxis'
@@ -117,4 +117,4 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals
 
 value:
   The mean of the measurement described in the measurement column for each subject and activity.
-  
+  (0,1)
