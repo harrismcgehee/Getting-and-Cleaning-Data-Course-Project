@@ -111,6 +111,7 @@ names(oneDataSet)[names(oneDataSet) == 'fBodyBodyGyroJerkMag.mean..'] <- 'freqDo
 names(oneDataSet)[names(oneDataSet) == 'fBodyBodyGyroJerkMag.std..'] <- 'freqDomainBodyGyroscopeJerkStdMagnitude'
 
 library(tidyr)
+library(dplyr)
 
 tidy <- tbl_df(oneDataSet)
 gatherTidy <- gather(tidy, measurement, value, -subjectIdentifier,-activity)
